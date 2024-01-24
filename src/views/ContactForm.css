@@ -1,0 +1,23 @@
+/* ContactForm.css */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* O ajusta según tus preferencias */
+    margin: 0 auto;  /* Centra el formulario horizontalmente */
+   
+}
+  
+  .form-group {
+    
+    margin-bottom: 10px; /* Espaciado entre grupos de campos */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px; /* Espaciado entre etiquetas y campos */
+    margin-top: 20px;
+   margin-left: 40%;
+}
+button{
+    margin-left: 53%;
+}

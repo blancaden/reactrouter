@@ -1,0 +1,38 @@
+
+nav {
+    background-color: #333; /* Cambia el color de fondo según tu preferencia */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    /*justify-content: space-around; /* Alinea los elementos a lo largo del contenedor */
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los enlaces */
+  li a {
+    text-decoration: none;
+    color: white; /* Color del texto */
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease-in-out; /* Agrega una transición suave al color del texto */
+  
+    /* Estilos para cuando el enlace está en estado "hover" */
+    &:hover {
+      color: #61dafb; /* Cambia el color al pasar el ratón sobre el enlace */
+    }
+  
+    /* Estilos para el enlace activo (página actual) */
+    &.active {
+      color: #61dafb; /* Cambia el color del enlace activo */
+    }
+  }
