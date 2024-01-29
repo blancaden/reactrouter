@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, } from 'react-router-dom';
 import Home from "../../views/Home"
 import Contact from '../../views/Contact';
 
@@ -16,6 +16,7 @@ function App() {
       </Routes>
       
     </div>
+
   </>
   )
 }
